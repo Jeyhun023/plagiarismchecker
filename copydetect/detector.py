@@ -57,7 +57,8 @@ class CopyDetector:
         self.slice_matrix = [[np.array([]) for _ in range(2)] for _ in range(2)]
      
         similarity = compare_files(self.file_data["code1"], self.file_data["code2"])
-        print( similarity )
+        
+        return similarity
      
     def _preprocess_code(self):
         boilerplate_hashes = np.unique(np.array([]))

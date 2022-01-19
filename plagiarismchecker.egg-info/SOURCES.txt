@@ -7,6 +7,7 @@ copydetect/detector.py
 copydetect/pywinnow.py
 copydetect/utils.py
 copydetect/winnow/winnow.c
+copydetect/winnow/winnow.c
 plagiarismchecker.egg-info/PKG-INFO
 plagiarismchecker.egg-info/SOURCES.txt
 plagiarismchecker.egg-info/dependency_links.txt
