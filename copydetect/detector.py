@@ -24,7 +24,7 @@ def compare_files(file1_data, file2_data):
     slices1 = get_copied_slices(idx1, file1_data.k)
    
     if len(slices1[0]) == 0:
-        return 0, (0,0), (np.array([]), np.array([]))
+        return 0
 
     token_overlap = np.sum(slices1[1] - slices1[0])
 
