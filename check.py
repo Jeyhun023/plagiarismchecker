@@ -1,6 +1,0 @@
-from copydetect import CopyDetector
-
-detector = CopyDetector(code1="import numpy as np import matplotlib.pyplot as pltimport sysimport svmdef generate_training_data_binary(num): if num == 1: data = np.zeros((10,3)) for i in range(5):data[i] = [i-5, 0, 1]data[i+5] = [i+1, 0, -1]elif num == 2:data = np.zeros((10,3))for i in range(5): data[i] = [0, i-5, 1]data[i+5] = [0, i+1, -1] elif num == 3:data = np.zeros((10,3)) data[0] = [3, 2, 1]for item in data:plt.plot(item[0], item[1], colors[int(item[2])-1] + shapes[int(item[2])-1])m = max(data.max(), abs(data.min()))+1plt.axis([-m, m, -m, m])plt.show()plot = plot_training_data_binary(data)", 
-                        code2= "import asdfgfafdshdikj pltimport sysimport svmdef generate_training_data_binary(num): if num == 1: data = np.zeros((10,3)) for i in range(5):data[i] = [i-5, 0, 1]data[i+5] = [i+1, 0, -1]elif num == 2:data = np.zeros((10,3))for i in range(5): data[i] = [0, i-5, 1]data[i+5] = [0, i+1, -1] elif num == 3:data = np.zeros((10,3)) data[0] = [3, 2, 1]for item in data:plt.plot(item[0], item[1], colors[int(item[2])-1] + shapes[int(item[2])-1])m = max(data.max(), abs(data.minsafdsgfadfsgaefbfdfbdfsdvx", extension="java", display_t=0.1)
-
-detector.run()
